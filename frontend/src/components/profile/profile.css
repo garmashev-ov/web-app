@@ -1,0 +1,101 @@
+.profile {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    background-color: aliceblue;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    position: relative;
+}
+
+.head>h1 {
+    align-self: center;
+    padding: 10%;
+}
+
+
+.head>img {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.subscribe {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.subscribe>button {
+    height: 10%;
+    width: 7em;
+    font-size: 150%;
+    background-color: rgb(176, 150, 230);
+    border-radius: 4px;
+}
+
+.subscribe>button:hover {
+    background-color: blueviolet;
+}
+.subscribe>p {
+    align-self: center;
+}
+
+
+.profilePublication {
+position: relative;
+}
+
+.post_buttons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 3px;
+}
+.post_buttons > button {
+    border-color: #dd8fe8;
+    background-color: rgb(176, 150, 230);
+    height: 2em;
+    margin-left: 5px;
+}
+.post_buttons > button:hover {
+    background-color: blueviolet;   
+
+}
+
+.edit_form {
+    border-bottom: 1px solid;
+}
+
+.edit_form > textarea {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 80%;
+    border-color: #dd8fe8;
+    border-width: 4px;
+    background-color: rgb(221, 237, 252);
+    height: 5em;   
+}
+
+.edit_form > button {
+    background-color: rgb(176, 150, 230);
+    margin: 3px;
+    margin-left: 2%;
+    border-radius: 4px;
+    margin-bottom: 3%;
+    height: 2em;
+}
+
+.edit_form > button:hover {
+    background-color: blueviolet;   
+}

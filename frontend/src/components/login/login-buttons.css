@@ -1,0 +1,29 @@
+.login_buttons {
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.login_buttons .link {
+    margin: 3%;
+}
+
+.login_buttons .link > button {
+    background-color: rgb(176, 150, 230);
+    width: 100%;
+    font-size: large;
+    border-radius: 7px;
+    height: 2em;
+    border: none;
+}
+
+.login_buttons .link > button:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+ .create_post {
+    margin-top: 5%;
+} 
+
+.create_post textarea {
+    width: 40%;
+    height: 20em;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-color: #dd8fe8;
+    border-width: 4px;
+    background-color: aliceblue;
+}
+
+
+.create_post button {
+    width: 10%; 
+    font-size: x-large;
+    background-color: rgb(176, 150, 230);
+    border-radius: 7px;
+    height: 2em;
+    /* border: none; */
+    border-color: blueviolet;
+}
+
+.create_post button:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}

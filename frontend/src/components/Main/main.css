@@ -1,0 +1,11 @@
+main {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    background-color: aliceblue;
+    overflow: auto;
+    word-wrap: break-word;
+  }
